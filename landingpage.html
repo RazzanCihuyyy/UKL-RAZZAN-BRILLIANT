@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduConnect - Sistem Informasi Akademik Terpadu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="edu">Zann</span><span class="connect">Edu</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Fitur</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#testimonials">Testimoni</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+                <div class="auth-buttons">
+                    <a href="/login" class="btn btn-outline">Masuk</a>
+                    <a href="/register" class="btn btn-primary">Daftar</a>
+                </div>
+                <div class="mobile-menu-btn">
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-aos="fade-up">Transformasi Digital Pendidikan</h1>
+            <p data-aos="fade-up" data-aos-delay="200">
+                Platform pembelajaran terpadu yang menghubungkan guru, siswa, dan orang tua dalam satu ekosistem pendidikan digital yang inovatif.
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="#demo" class="btn btn-primary">Mulai Sekarang</a>
+                <a href="#video" class="btn btn-outline">Lihat Demo</a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="600">
+                <div class="stat">
+                    <h3>1000+</h3>
+                    <p>Sekolah</p>
+                </div>
+                <div class="stat">
+                    <h3>50,000+</h3>
+                    <p>Pengguna Aktif</p>
+                </div>
+                <div class="stat">
+                    <h3>98%</h3>
+                    <p>Tingkat Kepuasan</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="zoom-in" data-aos-delay="300">
+            <div class="floating-cards">
+                <div class="card card-1"></div>
+                <div class="card card-2"></div>
+                <div class="card card-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2 class="section-title" data-aos="fade-up">Fitur Unggulan</h2>
+        <div class="features-grid">
+            <div class="feature-card" data-aos="fade-up">
+                <div class="icon">📚</div>
+                <h3>Manajemen Akademik</h3>
+                <ul>
+                    <li>Penjadwalan kelas otomatis</li>
+                    <li>Presensi digital dengan QR Code</li>
+                    <li>Pengelolaan nilai terintegrasi</li>
+                </ul>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon">💬</div>
+                <h3>Ruang Diskusi</h3>
+                <ul>
+                    <li>Forum diskusi per mata pelajaran</li>
+                    <li>Chat pribadi dengan guru</li>
+                    <li>Kolaborasi tugas kelompok</li>
+                </ul>
+            </div>
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon">📊</div>
+                <h3>Dashboard Personal</h3>
+                <ul>
+                    <li>Monitoring prestasi real-time</li>
+                    <li>Analisis perkembangan belajar</li>
+                    <li>Laporan akademik terpadu</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title" data-aos="fade-up">Testimoni Pengguna</h2>
+        <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2 class="section-title" data-aos="fade-up">Hubungi Kami</h2>
+            <form id="contact-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="form-group">
+                    <input type="text" id="name" required placeholder="Nama Lengkap">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required placeholder="Pesan"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ZannEdu</h3>
+                <p>Transformasi digital untuk pendidikan yang lebih baik</p>
+            </div>
+            <div class="footer-section">
+                <h3>Tautan</h3>
+                <a href="#features">Fitur</a>
+                <a href="#about">Tentang</a>
+                <a href="#contact">Kontak</a>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                <p>Email: razzcihuyyy@gmail.com</p>
+                <p>Telp: (+62) 855-5550-1985</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ZannEdu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
