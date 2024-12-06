@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="profile-basic-info">
                     <h3>Razzan Brilliant Nafis</h3>
                     <p>NISN: 1234567890</p>
-                    <p>Kelas: 12 IPA 3</p>
+                    <p>Kelas: 10 SIJA 1</p>
                 </div>
             </div>
             <div class="profile-details">
@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table>
                     <tr>
                         <td>Tempat, Tanggal Lahir</td>
-                        <td>Sidoarjo, 15 Agustus 2005</td>
+                        <td>Sidoarjo, 17 April 2005</td>
                     </tr>
                     <tr>
                         <td>Jenis Kelamin</td>
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <table>
                     <tr>
                         <td>Email</td>
-                        <td>razzaq.abdillah@zann-edu.com</td>
+                        <td>razzan.brilliant@zann-edu.com</td>
                     </tr>
                     <tr>
                         <td>No. Telepon</td>
