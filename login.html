@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ZannEdu</title>
+    <link rel="stylesheet" href="logindaftar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <img src="Logo.png" alt="Logo Sekolah" class="auth-logo">
+                <h2>Akademik Terpadu</h2>
+                <p>Silakan login untuk mengakses sistem</p>
+            </div>
+            <form id="loginForm" class="auth-form">
+                <div class="form-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" placeholder="Username/NIS" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class="fas fa-eye-slash toggle-password" onclick="togglePassword()"></i>
+                </div>
+                <div class="form-group remember-forgot">
+                    <label>
+                        <input type="checkbox" id="remember">
+                        <span>Ingat Saya</span>
+                    </label>
+                    <a href="#" class="forgot-password">Lupa Password?</a>
+                </div>
+                <button type="submit" class="auth-button">Login</button>
+                <p class="auth-link">
+                    Belum punya akun? <a href="daftar.html">Daftar di sini</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="logindaftar.js"></script>
+</body>
+</html>

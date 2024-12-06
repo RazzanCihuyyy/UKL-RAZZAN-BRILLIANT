@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar - ZannEdu</title>
+    <link rel="stylesheet" href="logindaftar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card register">
+            <div class="auth-header">
+                <img src="Logo.png" alt="Logo Sekolah" class="auth-logo">
+                <h2>Akademik Terpadu</h2>
+                <p>Daftar akun baru</p>
+            </div>
+            <form id="registerForm" class="auth-form">
+                <div class="form-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="fullname" placeholder="Nama Lengkap" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-id-card"></i>
+                    <input type="text" id="nis" placeholder="NIS" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <i class="fas fa-eye-slash toggle-password" onclick="togglePassword(this)"></i>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="confirmPassword" placeholder="Konfirmasi Password" required>
+                    <i class="fas fa-eye-slash toggle-password" onclick="togglePassword(this)"></i>
+                </div>
+                <button type="submit" class="auth-button">Daftar</button>
+                <p class="auth-link">
+                    Sudah punya akun? <a href="login.html">Login di sini</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="logindaftar.js"></script>
+</body>
+</html>

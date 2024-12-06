@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - ZannEdu</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <div class="sidebar-logo">
+                <span class="edu">Zann</span><span class="connect">Edu</span>
+            </div>
+            <ul class="sidebar-menu">
+                <li class="active" data-section="dashboard">Dashboard</li>
+                <li data-section="subjects">Mata Pelajaran</li>
+                <li data-section="schedule">Jadwal</li>
+                <li data-section="grades">Nilai</li>
+                <li data-section="attendance">Presensi</li>
+                <li data-section="profile">Profil</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="dashboard-header">
+                <h1>Dashboard Siswa</h1>
+                <div class="user-info">
+                    <span>Selamat Datang, </span>
+                    <strong id="username">Razzan Brilliant </strong>
+                </div>
+            </div>
+
+            <div id="dashboard-section" class="dashboard-section active">
+                <div class="dashboard-cards">
+                    <div class="card">
+                        <div class="card-icon">📚</div>
+                        <div class="card-content">
+                            <div class="card-value">8</div>
+                            <div class="card-label">Mata Pelajaran</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📊</div>
+                        <div class="card-content">
+                            <div class="card-value">4.5</div>
+                            <div class="card-label">Indeks Prestasi</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📅</div>
+                        <div class="card-content">
+                            <div class="card-value">95%</div>
+                            <div class="card-label">Kehadiran</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📝</div>
+                        <div class="card-content">
+                            <div class="card-value">20</div>
+                            <div class="card-label">Tugas Tertunda</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-activities">
+                    <h2>Aktivitas Terkini</h2>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <span class="activity-icon">📖</span>
+                            <div class="activity-details">
+                                <p>Tugas Matematika diselesaikan</p>
+                                <small>15 menit yang lalu</small>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <span class="activity-icon">🏆</span>
+                            <div class="activity-details">
+                                <p>Nilai Fisika mendapatkan A</p>
+                                <small>2 jam yang lalu</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="dashboard-section" class="dashboard-section active"></div>
+
+            
+            <div id="subjects-section" class="dashboard-section">
+                <h2>Mata Pelajaran</h2>
+                <div class="subjects-grid" id="subjects-list"></div>
+            </div>
+
+
+            <div id="schedule-section" class="dashboard-section">
+                <h2>Jadwal Pelajaran</h2>
+                <div class="schedule-table" id="schedule-content"></div>
+            </div>
+
+
+            <div id="grades-section" class="dashboard-section">
+                <h2>Nilai Akademik</h2>
+                <div class="grades-container" id="grades-content"></div>
+            </div>
+
+
+            <div id="attendance-section" class="dashboard-section">
+                <h2>Rekap Presensi</h2>
+                <div class="attendance-summary" id="attendance-content"></div>
+            </div>
+
+            <div id="profile-section" class="dashboard-section">
+                <h2>Profil Siswa</h2>
+                <div class="profile-container" id="profile-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

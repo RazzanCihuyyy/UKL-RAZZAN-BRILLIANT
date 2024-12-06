@@ -27,17 +27,17 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             name: "Rahmad Haris Abdillah",
             role: "Murid SMK TELKOM Sidoarjo",
-            text: "EduConnect sangat membantu saya dalam memahami lebih dalam tentang materi yang tidak saya pahami sebelumnya."
+            text: "ZannEdu sangat membantu saya dalam memahami lebih dalam tentang materi yang tidak saya pahami sebelumnya."
         },
         {
-            name: "Viktor Gyokeres",
+            name: "Cristiano Ronaldo",
             role: "Pemain Bola Portugal",
-            text: "Sebagai orang Portugal pun, saya bisa belajar lebih banyak menggunakan EduConnect."
+            text: "ZannEdu benar-benar membantu anak saya dan juga teman-temannya dalam memahami materi lebih dalam."
         },
         {
-            name: "Budi Santoso",
-            role: "Kepala Sekolah",
-            text: "Platform yang luar biasa untuk transformasi digital di sekolah kami."
+            name: "Furina",
+            role: "Hydro Archon Fontaine",
+            text: "Platform yang luar biasa untuk transformasi digital di Region kami (Fontaine)."
         }
     ];
 
